@@ -49,6 +49,20 @@
     <!-- Products will be injected here dynamically -->
   </div>
 </section>
+<section class="products-section">
+  <h2 class="section-title">Our Products</h2>
+
+  <!-- Loading State -->
+  <div id="loading" class="loading">Loading products...</div>
+
+  <!-- Error State -->
+  <div id="error" class="error hidden">
+    Failed to load products. Please try again later.
+  </div>
+
+  <!-- Product Grid -->
+  <div class="product-grid" id="productGrid"></div>
+</section>
 
     <script src="scripts/app.js"></script>
 </body>
