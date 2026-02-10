@@ -40,7 +40,7 @@ console.log("E-Commerce Website Loaded");
 
 
   const API_URL = "https://fakestoreapi.com/products";
-  const productGrid = document.getElementById("productGrid");
+  
   const loading = document.getElementById("loading");
   const errorBox = document.getElementById("error");
 
